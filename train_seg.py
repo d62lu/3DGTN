@@ -45,7 +45,7 @@ def parse_args():
     parser = argparse.ArgumentParser('Model')
     parser.add_argument('--model', type=str, default='3dgtn_seg', help='model name')
     parser.add_argument('--batch_size', type=int, default=16, help='batch Size during training')
-    parser.add_argument('--epoch', default=300, type=int, help='epoch to run')
+    parser.add_argument('--epoch', default=250, type=int, help='epoch to run')
     parser.add_argument('--learning_rate', default=0.1, type=float, help='initial learning rate')
     parser.add_argument('--gpu', type=str, default='0', help='specify GPU devices')
     parser.add_argument('--optimizer', type=str, default='SGD', help='Adam or SGD')
