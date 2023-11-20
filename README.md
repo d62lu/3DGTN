@@ -33,7 +33,6 @@ python train_classification.py --use_normals --log_dir 3dgtn_cls --process_data
 python train_seg.py --normal --log_dir 3dgtn_seg
 ```
 
-%# Citation
 
 
 
