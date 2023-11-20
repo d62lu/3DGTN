@@ -18,6 +18,7 @@ The latest codes are tested on CUDA10.1, PyTorch 1.6, and Python 3.8.
 
 # Data preparation
 Download the alignment ModelNet (https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip) and save it in "data/modelnet40_normal_resampled/".
+
 Download the ShapeNet dataset (https://shapenet.org/) and save it in "data/shapenetcore_partanno_segmentation_benchmark_v0_normal/".
 
 
