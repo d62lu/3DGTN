@@ -95,8 +95,7 @@ def main(args):
     log_string('PARAMETER ...')
     log_string(args)
     
-    #root = 'data/shapenetcore_partanno_segmentation_benchmark_v0_normal/'
-    root = '/lustre03/project/6031441/y633wu/dening/shapenetcore_partanno_segmentation_benchmark_v0_normal/'
+    root = 'data/shapenetcore_partanno_segmentation_benchmark_v0_normal/'
 
     TRAIN_DATASET = PartNormalDataset(root=root, npoints=args.npoint, split='trainval', normal_channel=args.normal)
     trainDataLoader = torch.utils.data.DataLoader(TRAIN_DATASET, batch_size=args.batch_size, shuffle=True, num_workers=10, drop_last=True)
