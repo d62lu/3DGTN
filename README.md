@@ -29,6 +29,8 @@ Download the ShapeNet dataset (https://shapenet.org/) and save it in "data/shape
 python train_classification.py --use_normals --log_dir 3dgtn_cls --process_data
 ```
 
+Note: It is recommended to download the pre-trained model from https://drive.google.com/file/d/1wL-049lfzjvWK1jNRKFwL5ih6_gxD2hT/view?usp=drive_link to log/classification/3dctn_cls/checkpoints, and set the starting learning rate to 0.001 to train the network for 200 epoches. This will improve the final accuracy of the classificaion network
+
 ## For segmentation
 ```
 python train_seg.py --normal --log_dir 3dgtn_seg
